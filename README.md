@@ -33,4 +33,17 @@ $$T(n) \leq c f(n) \quad \forall n > n_0$$
 
 ### Array
 
+数组（Array）是一种线性表数据结构。它用一组连续的内存空间，来存储一组具有相同类型的数据。
+
 ![Array](LinearList/Array.jpg)
+
+寻址公式：
+
+```cpp
+a[i]_address = base_address + i * data_type_size
+```
+
+特性：
+
+- 下标随机访问 $O(1)$
+- 插入删除 $O(n)$
