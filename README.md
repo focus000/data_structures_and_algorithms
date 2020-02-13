@@ -61,3 +61,7 @@ a[i]_address = base_address + i * data_type_size
 
 ![ArrayLinkedList_1](LinearList/ArrayLinkedList_1.jpg)
 ![ArrayLinkedList_2](LinearList/ArrayLinkedList_2.jpg)
+
+### Stack
+
+![stack](LinearList/Stack.jpg)
