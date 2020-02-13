@@ -47,3 +47,17 @@ a[i]_address = base_address + i * data_type_size
 
 - 下标随机访问 $O(1)$
 - 插入删除 $O(n)$
+
+### Linked List
+
+链表（Linked List）用指针将离散的内存空间串联起来
+
+![SinglyLinkedList](LinearList/SinglyLinkedList.jpg)
+![CircylarLinkedLists](LinearList/CircylarLinkedLists.jpg)
+![DoubleLinkedLists](LinearList/DoubleLinkedLists.jpg)
+![DoubleCircularLinkedList](LinearList/DoubleCircularLinkedList.jpg)
+
+与数组比较：
+
+![ArrayLinkedList_1](LinearList/ArrayLinkedList_1.jpg)
+![ArrayLinkedList_2](LinearList/ArrayLinkedList_2.jpg)
