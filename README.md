@@ -2,7 +2,7 @@
 
 ## Plan
 
-![Alt text](Plan.jpg)
+![Plan](Plan.jpg)
 
 ## Complexity Analysis
 
@@ -25,3 +25,12 @@ $$c_1 f(n) \leq T(n) \leq c_2 f(n) \quad \forall n > n_0$$
 
 $T(n) = o(f(n))$ iff $\forall c > 0, \exist n_0$ s.t.
 $$T(n) \leq c f(n) \quad \forall n > n_0$$
+
+## Linear List
+
+![Linear List](LinearList/LinearList.jpg)
+![nonlinear List](LinearList/nonLinearList.jpg)
+
+### Array
+
+![Array](LinearList/Array.jpg)
