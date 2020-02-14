@@ -65,3 +65,18 @@ a[i]_address = base_address + i * data_type_size
 ### Stack
 
 ![stack](LinearList/Stack.jpg)
+
+### Queue
+
+![queue](LinearList/queue.jpg)
+
+#### 循环队列
+
+![Circular_Buffer](LinearList/Circular_Buffer_Animation.gif)
+
+#### 阻塞队列
+
+空队列阻塞出队，满队列阻塞入队
+
+![blockingqueue](LinearList/blockingqueue.jpg)
+![blockingqueue_2](LinearList/blockingqueue_2.jpg)
