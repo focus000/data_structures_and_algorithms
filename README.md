@@ -62,6 +62,19 @@ a[i]_address = base_address + i * data_type_size
 ![ArrayLinkedList_1](LinearList/ArrayLinkedList_1.jpg)
 ![ArrayLinkedList_2](LinearList/ArrayLinkedList_2.jpg)
 
+#### 跳表（skip list）
+
+![skip-list](LinearList/skip-list.jpg)
+
+查找、插入、索引动态更新：
+
+![Skip_list_add_element](LinearList/800px-Skip_list_add_element-en.gif)
+
+特性：
+
+- 插入、删除、查找时间复杂度 $O(\log{n})$
+- 空间复杂度 $O(n)$
+
 ### Stack
 
 ![stack](LinearList/Stack.jpg)
@@ -132,3 +145,16 @@ a[i]_address = base_address + i * data_type_size
 ### 基数排序
 
 ![基数排序](Sort/440px-基数排序.gif)
+
+## 查找
+
+### 线性表查找
+
+#### 二分查找
+
+时间复杂度：$O(\log{n})$
+
+特点：
+
+- 数据有序
+- 数据太小太大都不适合
