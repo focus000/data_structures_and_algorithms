@@ -146,11 +146,13 @@ a[i]_address = base_address + i * data_type_size
 
 ![基数排序](Sort/440px-基数排序.gif)
 
-## 查找
+## Search
 
 ### 线性表查找
 
 #### 二分查找
+
+![Binary_search](Search/Binary_search_into_array.png)
 
 时间复杂度：$O(\log{n})$
 
@@ -158,3 +160,34 @@ a[i]_address = base_address + i * data_type_size
 
 - 数据有序
 - 数据太小太大都不适合
+
+## Hash Table
+
+![Hash_table](HashTable/630px-Hash_table.svg.png)
+
+### 散列函数
+
+1. 非负
+2. 尽可能为单射
+3. 尽可能简单
+
+例如：MD5, SHA, CRC
+
+### 解决散列冲突
+
+由于很难在简单函数、大定义域下做到散列函数为单射，所以我们要考虑散列冲突问题，一般有以下解决方案：
+
+#### 开放寻址法
+
+![open_addressing](HashTable/760px-Hash_table_open_addressing.svg.png)
+
+特点：
+
+- 探测方式：线性探测、二次探测、双重散列
+- 数据全部存在数组里，方便序列化
+- 删除数据不能直接删除，那样会导致查找失效，只能先将数据标为deleted
+- 插入越多时，散列冲突可能性越大，空闲位置会越少，探测的时间就会越久。
+
+#### 链表法
+
+![separate_chaining](HashTable/900px-Hash_table_separate_chaining.svg.png)
