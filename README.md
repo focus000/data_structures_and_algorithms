@@ -192,5 +192,8 @@ a[i]_address = base_address + i * data_type_size
 
 ![separate_chaining](HashTable/900px-Hash_table_separate_chaining.svg.png)
 
+链表也可替换为跳表、红黑树等
+
 ### 动态扩容
 
+装载因子大于阈值时申请更大的空间，重新计算哈希值，插入之前的对象。但是可能会导致某次插入操作耗时过长，为了避免，可以在申请空间后每次插入的时候多搬运一个旧对象
