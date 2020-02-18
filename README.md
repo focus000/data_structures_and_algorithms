@@ -191,3 +191,6 @@ a[i]_address = base_address + i * data_type_size
 #### 链表法
 
 ![separate_chaining](HashTable/900px-Hash_table_separate_chaining.svg.png)
+
+### 动态扩容
+
