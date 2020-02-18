@@ -197,3 +197,34 @@ a[i]_address = base_address + i * data_type_size
 ### 动态扩容
 
 装载因子大于阈值时申请更大的空间，重新计算哈希值，插入之前的对象。但是可能会导致某次插入操作耗时过长，为了避免，可以在申请空间后每次插入的时候多搬运一个旧对象
+
+## Tree
+
+![Tree](Tree/440px-Tree_(computer_science).svg.png)
+
+not tree:
+
+![Graph_single_node](Tree/140px-Graph_single_node.svg.png)
+![Directed_graph_with_branching](Tree/154px-Directed_graph_with_branching_SVG.svg.png)
+![Directed_graph_cyclic](Tree/322px-Directed_graph,_cyclic.svg.png)
+![Directed_graph_disjoint](Tree/198px-Directed_graph,_disjoint.svg.png)
+
+height, depth, level:
+
+![Tree-height-depth-level](Tree/Tree-height-depth-level.jpg)
+
+### Binary tree
+
+![Binary_tree](Tree/384px-Binary_tree.svg.png)
+
+Methods for storing binary trees:
+
+
+
+#### Full Binary Tree
+
+![Full_binary](Tree/440px-Full_binary.svg.png)
+
+#### Complete Binary Tree
+
+![Complete_binary2](Tree/440px-Complete_binary2.svg.png)
