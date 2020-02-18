@@ -219,7 +219,24 @@ height, depth, level:
 
 Methods for storing binary trees:
 
+1. Nodes and references
 
+   ![binary-tree-storing-nodes-references](Tree/binary-tree-storing-nodes-references.jpg)
+
+2. Arrays
+
+   ![binary-tree-storing-array](Tree/binary-tree-storing-array.jpg)
+   ![binary-tree-storing-array2](Tree/binary-tree-storing-array2.jpg)
+   ![Binary_tree_in_array](Tree/600px-Binary_tree_in_array.svg.png)
+
+Traversal:
+
+![Sorted_binary_tree](Tree/800px-Sorted_binary_tree_ALL.svg.png)
+> Depth-first traversal of an example tree:
+>
+> - pre-order (red): F, B, A, D, C, E, G, I, H;
+> - in-order (yellow): A, B, C, D, E, F, G, H, I;
+> - post-order (green): A, C, E, D, B, H, I, G, F.
 
 #### Full Binary Tree
 
